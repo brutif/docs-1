@@ -30,7 +30,7 @@ Kabanero uses Operator Lifecycle Manager (OLM) to manage its prerequisites.  Sev
 .. Ensure you are logged into your cluster with the https://docs.openshift.com/container-platform/4.2/cli_reference/openshift_cli/getting-started-cli.html#cli-logging-in_cli-developer-commands[`oc login` command]
 .. If installing the optional kAppNav component, specify `yes` on the ENABLE_KAPPNAV environment variable.  If not, specify `no`.
 .. `ENABLE_KAPPNAV=yes|no ./install.sh`
-.. If installing the optional Keycloak component:
+.. If installing the optional Keycloak component for test and development use:
 ... Your cluster must support persistent volumes.  Create a persistent volume of type ReadWriteOnce with capacity of at least 1GB. 
 ... Specify `yes` on the ENABLE_KEYCLOAK environment variable.  If not, specify `no`.
 ... `ENABLE_KEYCLOAK=yes|no ./install.sh`
